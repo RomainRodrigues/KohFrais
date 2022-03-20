@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <script src="BOOTSTRAP/js/bootstrap.js"></script>
+    <script src="BOOTSTRAP/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="MDB/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="MDB/css/mdb.min.css" />
+    <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" href="Ressources/PHOTOS/LOGO/icone%20glace.png">
+    <title>KoH FraiS</title>
+</head>
+<body>
+<div class="container-fluid">
+    <header class="row d-none d-sm-none d-lg-flex">
+        <img class="col-lg-1" src="Ressources/PHOTOS/LOGO/logo%20Koh%20Frais.png" alt="Logo Koh Frais" title="Logo Koh Frais">
+        <nav class="col-lg-11">
+            <button onclick="window.location='index.html'">Accueil</button>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nos produits
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><p class="titre-dropdown">Gamme Particuliers</p></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_spe.html">Spécialités</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+                    <li><hr></li>
+                    <li><p class="titre-dropdown">Gamme Professionnels</p></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_pro_ita.html">Glace à l'Italienne</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_pro_fruits.html">Fruits Congelés</a></li>
+                    <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+                </ul>
+            </div>
+        <button onclick="window.location='HTML/CONTACT/contact.html'">Contact</button>
+            <button onclick="window.location='HTML/POINTS_VENTES/Pointsventes.html'">A Propos</button>
+        </nav>
+
+    </header>
+
+
+    <header class="hmobile row d-lg-none d-block d-sm-block">
+        <section class="mb-3">
+            <nav class="navbar">
+                <div>
+                    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarToggleExternalContent4"
+                            aria-controls="navbarToggleExternalContent4" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                        <img src="Ressources/PHOTOS/LOGO/icone%20glace.png" alt="Logo Koh Frais Glace" title="Logo Koh Frais Glace">
+                    </button>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent4">
+                <div class="p-4">
+                    <button class="hmbutton btn btn-link btn-block m-1" onclick="window.location='index.html'">Accueil</button>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos produits
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><p class="titre-dropdown">Gamme Particuliers</p></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_spe.html">Spécialités</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+                            <li><hr></li>
+                            <li><p class="titre-dropdown">Gamme Professionnels</p></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_pro_ita.html">Glace à l'Italienne</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_pro_fruits.html">Fruits Congelés</a></li>
+                            <li><a class="dropdown-item" href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+                        </ul>
+                    </div>
+                    <button class="hmbutton btn btn-link btn-block m-1" onclick="window.location='HTML/CONTACT/contact.html'">Contact</button>
+                    <button class="hmbutton btn btn-link btn-block m-1" onclick="window.location='HTML/POINTS_VENTES/Pointsventes.html'">A Propos</button>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="row">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Ressources/PHOTOS/CAROUSEL/carousel_bac.jpg" class="d-lg-block d-none w-100" alt="Nos bacs de glace" title="Bac de Glace">
+                        <img src="Ressources/PHOTOS/CAROUSEL/car_bac_sm.jpg" class="d-block d-lg-none w-100" alt="Nos bacs de glace" title="Bac de Glace">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Découvrez nos bacs de glace !</h5>
+                            <p>Un large choix pour professionnels et particuliers</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Ressources/PHOTOS/CAROUSEL/carousel_fruit.jpg" class="d-lg-block d-none w-100" alt="Nos fruits des bois" title="Fruits Rouge">
+                        <img src="Ressources/PHOTOS/CAROUSEL/car_fruit_sm.jpg" class="d-block d-lg-none w-100" alt="Nos fruits des bois" title="Fruits Rouge">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Découvrez nos fruits congelés</h5>
+                            <p>Des fruits de qualités à destination des professionnels</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Ressources/PHOTOS/CAROUSEL/carousel_indiv.jpg" class="d-lg-block d-none w-100" alt="Nos coupes individuelles" title="Coupes individuelles">
+                        <img src="Ressources/PHOTOS/CAROUSEL/car_indiv_sm.jpg" class="d-block d-lg-none w-100" alt="Nos coupes individuelles" title="Coupes individuelles">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Découvrez nos coupes individuelles</h5>
+                            <p>De nouveaux parfums à destination des particuliers et professionnels</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <img src="Ressources/PHOTOS/ICONS/icon_left.png" alt="Fleche" title="Fleche">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <img src="Ressources/PHOTOS/ICONS/icon_right.png" alt="Fleche" title="Fleche">
+                </button>
+            </div>
+        </section>
+
+        <div class="separateur row d-block d-lg-none"></div>
+
+        <section class="meilleures">
+            <div class="row justify-content-center">
+                <h1 class="col-auto">Meilleures ventes</h1>
+            </div>
+
+            <section class="row">
+                <section class="col-lg-6 col-12 col-sm-12">
+                    <h2>Pour les professionnels</h2>
+                    <article>
+                        <img src="Ressources/PHOTOS/PRODUITS/GLACE/BAC_GLACE/bac_chocolat.jpg" alt="Chocolat" title="Chocolat">
+                        <h3>Bac de glace<br>chocolat</h3>
+                    </article>
+                    <article>
+                        <img src="Ressources/PHOTOS/PRODUITS/BIO/BAC_BIO/bac_cara_be_sa.jpg" alt="Caramel" title="Caramel">
+                        <h3>Bac de glace<br>caramel</h3>
+                    </article>
+                    <article>
+                        <img src="Ressources/PHOTOS/PRODUITS/BIO/COULIS%20BIO/coulis_fraisebois.jpg" alt="Coulis" title="Coulid">
+                        <h3>Coulis bio<br>Fraise</h3>
+                    </article>
+                </section>
+                <section class="col-lg-6 col-12 col-sm-12">
+                    <h2>Pour les particuliers</h2>
+                    <section>
+                        <article>
+                            <img src="Ressources/PHOTOS/PRODUITS/SPECIALITE/VACHERIN/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
+                            <h3>Exemple 1</h3>
+                        </article>
+                        <article>
+                            <img src="Ressources/PHOTOS/PRODUITS/SPECIALITE/VACHERIN/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
+                            <h3>Exemple 1</h3>
+                        </article>
+                        <article>
+                            <img src="Ressources/PHOTOS/PRODUITS/SPECIALITE/VACHERIN/Vacherin_4.jpg" alt="Vacherin" title="Vacherin">
+                            <h3>Exemple 1</h3>
+                        </article>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <div class="separateur row d-block d-lg-none"></div>
+
+        <section>
+            <div class="row justify-content-center">
+                <h1 class="col-auto">Nos Gammes</h1>
+            </div>
+            <section class="row">
+                <div class="col-lg-6 col-12 col-sm-12">
+                    <article class="carte">
+                        <img src="Ressources/PHOTOS/CARTES/carte_professionnel.jpg" alt="Gamme Professionnel" title="Gamme Professionnel">
+                        <h2>Professionnels</h2>
+                        <button onclick="window.location='HTML/GAMME/GamPro.html'">Explorer</button>
+                    </article>
+                </div>
+                <div class="col-lg-6 col-12 col-sm-12">
+                    <article class="carte">
+                        <img src="Ressources/PHOTOS/CARTES/carte_particulier.jpg" alt="Gamme Particulier" title="Gamme Particulier">
+                        <h2>Particuliers</h2>
+                        <button onclick="window.location='HTML/GAMME/GamPart.html'">Explorer</button>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer class="d-none d-sm-none d-lg-block">
+        <div class="row">
+            <section class="col-lg-3">
+                <img src="Ressources/PHOTOS/LOGO/logo_Koh_Frais_fond3.png" alt="logo" title="logo">
+            </section>
+            <section class="col-lg-3">
+                <p><a href="HTML/GAMME/GamPro.html"><strong>Gamme Professionnel</strong></a></p>
+            </section>
+            <section class="col-lg-3">
+                <p><a href="HTML/GAMME/GamPart.html"><strong>Gamme Particuliers</strong></a></p>
+            </section>
+            <section class="col-lg-3">
+                <p><strong>A propos</strong></p>
+            </section>
+        </div>
+        <div class="row">
+            <section class="col-lg-3">
+                <ul>
+                    <li>Venez découvrir l’ensemble de nos parfums de glaces et sorbets et nos réalisations pâtissières</li>
+                    <li>18 rue des artisans<br>22300 Lannion</li>
+                    <li>02 98 54 08 08<br>commercial@kohfrais.com</li>
+                </ul>
+            </section>
+            <section class="col-lg-3">
+                <ul>
+                    <li><a href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_pro_ita.html">Glace à l'Italienne</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_pro_fruits.html">Fruits Congelés</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+                </ul>
+            </section>
+            <section class="col-lg-3">
+                <ul>
+                    <li><a href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_part_spe.html">Spécialités</a></li>
+                    <li><a href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+                </ul>
+            </section>
+            <section class="col-lg-3">
+                <ul>
+                    <li><a href="HTML/POINTS_VENTES/Pointsventes.html">Points de ventes</a></li>
+                    <li><a href="HTML/CONTACT/contact.html">Contactez nous</a></li>
+                </ul>
+            </section>
+        </div>
+    </footer>
+
+    <footer class="d-block d-sm-block d-lg-none">
+        <section class="presentation">
+            <img src="Ressources/PHOTOS/LOGO/icone_glace_fond.png" alt="Logo glace" title="Logo glace">
+            <ul>
+                <li>Venez découvrir l’ensemble de nos parfums de glaces et sorbets et nos réalisations pâtissières</li>
+                <li>18 rue des artisans<br>22300 Lannion</li>
+                <li>02 98 54 08 08<br>commercial@kohfrais.com</li>
+            </ul>
+        </section>
+        <section>
+            <p><a href="HTML/GAMME/GamPro.html"><strong>Gamme pro</strong></a></p>
+            <ul>
+                <li><a href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                <li><a href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                <li><a href="HTML/CATALOGUE/cat_pro_ita.html">Glace à l'Italienne</a></li>
+                <li><a href="HTML/CATALOGUE/cat_pro_fruits.html">Fruits Congelés</a></li>
+                <li><a href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+            </ul>
+        </section>
+        <section>
+            <p><a href="HTML/GAMME/GamPart.html"><strong>Gamme particuliers</strong></a></p>
+            <ul>
+                <li><a href="HTML/CATALOGUE/cat_part_bac.html">Bacs de Glace</a></li>
+                <li><a href="HTML/CATALOGUE/cat_part_cup_indiv.html">Coupes Individuelles</a></li>
+                <li><a href="HTML/CATALOGUE/cat_part_spe.html">Spécialités</a></li>
+                <li><a href="HTML/CATALOGUE/cat_part_bio.html">Produits Bio</a></li>
+            </ul>
+        </section>
+        <section>
+            <p><strong>A propos</strong></p>
+            <ul>
+                <li><a href="HTML/POINTS_VENTES/Pointsventes.html">Points de ventes</a></li>
+                <li><a href="HTML/CONTACT/contact.html">Contactez nous</a></li>
+            </ul>
+        </section>
+    </footer>
+
+</div>
+</body>
+</html>
